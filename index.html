@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de Imagens</h1>
+    <button type="button" id="nova-imagem-botao" >Nova Imagem +</button>
+    <button type="button" id="retirar-imagem-botao" >Retirar Imagem -</button>
+    <button type="button" id="recolher-form">Recolher Formulário</button>
+  </header>
+  <form id="formInserir">
+    <h2>Inserir nova imagem</h2>
+    <input type="url" id="new-URL" required placeholder="URL da imagem" />
+    <button type="submit">Adicionar</button>
+    <button type="reset" id="bt-cancel-inserir">Cancelar</button>
+  </form>
+  <form id="formRetirar">
+    <h2>Retirar uma imagem</h2>
+    <input type="url" id="del-URL" required placeholder="URL da imagem" />
+    <button type="submit">Adicionar</button>
+    <button type="reset" id="bt-cancel-retirar">Cancelar</button>
+  </form>
+  <ul>
+    <li>
+      <div>
+        <a href="./images/foto1.jpg" class="links-imgs" target="_blank">Ver em tamanho real</a>
+        <a href="./images/foto1.jpg" target="_blank">
+          <img src="./images/foto1.jpg" class="img-class" title="Ver imagem em tamanho real" alt="pintura gato arrepiado" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="./images/foto2.jpg" class="links-imgs" target="_blank">Ver em tamanho real</a>
+        <a href="./images/foto2.jpg" target="_blank">
+          <img src="./images/foto2.jpg" class="img-class" title="Ver imagem em tamanho real" alt="close flamingo rosa" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="./images/foto3.jpg" class="links-imgs" target="_blank">Ver em tamanho real</a>
+        <a href="./images/foto3.jpg" target="_blank">
+          <img src="./images/foto3.jpg" class="img-class" title="Ver imagem em tamanho real" alt="dois cachorross fofos num saco de pano" />
+        </a>
+      </div>
+    </li>
+  </ul>
+</body>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</html>
