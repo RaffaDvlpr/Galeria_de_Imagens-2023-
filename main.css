@@ -7,10 +7,10 @@
 
 header{
     color: white;
-    background-color: rgb(69, 0, 189);
+    background-color: rgb(17, 6, 134);
     padding: 16px 0;
     display: flex;
-    border-bottom: 16px solid rgb(60, 0, 163);
+    border-bottom: 16px solid  rgb(14, 5, 107);
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -21,7 +21,7 @@ header button {
 }
 
 form{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(187, 187, 187);
     padding: 24px 0;
     text-align: center;
     display: none;
@@ -36,11 +36,13 @@ form h2{
 }
 
 #bt-cancel-inserir, #bt-cancel-retirar {
-    background-color: rgb(125, 0, 0);
+    background-color: rgb(151, 0, 0);
+    border: 2px solid rgb(125, 0, 0);;
 }
 
 #bt-cancel-inserir:hover, #bt-cancel-retirar:hover {
-    background-color: rgb(171, 0, 0);
+    background-color: rgb(125, 0, 0);
+    border: none;
 }
 
 input, button{
@@ -48,16 +50,18 @@ input, button{
 }
 
 button{
-    background-color: rgb(0, 105, 0);
+    background-color: rgb(24, 10, 184);
+    border-radius: 8px;
+    border: 2px solid rgb(14, 5, 107);
     color: white;
-    border: none;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 button:hover {
-    background-color: rgb(0, 184, 0);
+    background-color: rgb(14, 5, 107);
+    justify-content: center;
     color: white;
     border: none;
     cursor: pointer;
